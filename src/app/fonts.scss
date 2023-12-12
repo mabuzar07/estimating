@@ -1,0 +1,26 @@
+@import "../variables";
+
+@font-face {
+  font-family: $next-font-bold;
+  src: url("#{$next-font-bold-path}.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $next-font-demi;
+  src: url("#{$next-font-demi-path}.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $next-font-medium;
+  src: url("#{$next-font-medium-path}.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $next-font-regular;
+  src: url("#{$next-font-regular-path}.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $next-font-thin;
+  src: url("#{$next-font-thin-path}.otf") format("opentype");
+}

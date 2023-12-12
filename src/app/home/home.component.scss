@@ -1,0 +1,78 @@
+@import "../fonts.scss";
+
+.home-wrapper {
+  margin: 10px 300px;
+
+  .home-container {
+    display: flex;
+    align-items: center;
+    font-family: $next-font-bold;
+
+    .hero-content {
+      width: 40%;
+
+      .hero-heading {
+        font-size: 4em;
+        font-weight: bold;
+      }
+
+      .hero-desc {
+        font-size: 1.6em;
+        font-weight: bold;
+        margin: 0 0 30px 0;
+      }
+
+      .hero-controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .btn {
+          padding: 13px 46px 13px 47px;
+          border-radius: 48px;
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 22px;
+          font-family: AvenirNext forINTUIT;
+          cursor: pointer;
+        }
+
+        .register-btn {
+          display: flex;
+          align-items: center;
+          background: #306fd5;
+          border: none;
+          color: white;
+        }
+      }
+    }
+
+    .image-section {
+      width: 60%;
+      padding: 30px;
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+  .spces-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .specs-desc {
+      font-family: AvenirNext forINTUIT;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 34px;
+    }
+    .spec-icons {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

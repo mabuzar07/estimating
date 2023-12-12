@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { AboutComponent } from './about/about.component';
+import { NavigationComponent } from './header/components/navigation/navigation.component';
+import { SpecItemComponent } from './home/components/spec-item/spec-item.component';
+import { ScanHereComponent } from './home/components/scan-here/scan-here.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     HomeComponent,
     PricingComponent,
-    AboutComponent
+    AboutComponent,
+    NavigationComponent,
+    SpecItemComponent,
+    ScanHereComponent
   ],
   imports: [
     BrowserModule,

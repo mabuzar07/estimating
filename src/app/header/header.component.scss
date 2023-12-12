@@ -1,15 +1,55 @@
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    .logo-container{
-        img{
-            width: 58px;
-        }
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        color: #303030;
-        font-weight: bold;
+@import "../fonts.scss";
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 300px;
+  align-items: center;
+  height: 60px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    #fff;
+
+  .logo-container {
+    img {
+      width: 58px;
     }
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #303030;
+    font-weight: bold;
+  }
+  .auth-controls {
+    display: flex;
+    gap: 15px;
+
+    .btn {
+      padding: 13px 46px 13px 47px;
+      border-radius: 48px;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 22px;
+      font-family: $next-font-regular;
+      cursor: pointer;
+    }
+
+    .login-button {
+      border: 1px solid var(--Black, #303030);
+      box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.1);
+      background: none;
+    }
+
+    .register-btn {
+      display: flex;
+      align-items: center;
+      background: #306fd5;
+      border: none;
+      color: white;
+    }
+  }
 }

@@ -1,0 +1,25 @@
+@import "../fonts.scss";
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: $next-font-regular;
+  color: #303030;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 100px 300px 0;
+
+  .contact-details {
+    display: flex;
+    gap: 20px;
+
+    .details {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}
